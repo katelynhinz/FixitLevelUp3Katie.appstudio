@@ -54,6 +54,15 @@
         "Elements",
         "lblResult.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "car",
+        "Elements",
+        "btnStop.json"
+      ]
     }
   ],
   "class": "",
