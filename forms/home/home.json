@@ -45,6 +45,15 @@
         "Elements",
         "btn30.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "home",
+        "Elements",
+        "lblResult2.json"
+      ]
     }
   ],
   "class": "",
