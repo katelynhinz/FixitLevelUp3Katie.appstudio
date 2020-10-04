@@ -27,6 +27,15 @@
         "Elements",
         "btnCar.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "homePage",
+        "Elements",
+        "lblChoose.json"
+      ]
     }
   ],
   "class": "",
