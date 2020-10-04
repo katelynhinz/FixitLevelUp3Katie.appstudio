@@ -4,9 +4,7 @@
     function homeLoanPayment30(p, r) {
    return (p*(r*((1+r)**360))/(((1+r)**360)-1))
  }
- 
- 
- 
+
  
 btn15.onclick=function calcHomeLoanPayment15() {
   let principleValue = inptPrinciple2.value
@@ -16,11 +14,6 @@ btn15.onclick=function calcHomeLoanPayment15() {
   lblResult2.textContent = ("A home loan for $" + principleValue + " over 15 years at " + monthlyInterest +
   "% interest would have a monthly payment of $" + homePayment)
 }
-
-  
-
-
-
 
 
  btn30.onclick=function calcHomeLoanPayment30(){
