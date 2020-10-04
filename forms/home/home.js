@@ -8,13 +8,13 @@
  
  
  
-btn15.onclick=function homeLoanPayment15() {
-  let principleValue = inptPrinciple.value
-  let monthlyInterest = inptMonthlyInterest.value
-  let homePayment =  homeLoanPayment15(Number(principleValue),Number(monthlyInterest))
-  lblResult.hidden = false
-  lblResult.textContent = ("A home loan for $ " + principleValue + " over " + totalMonths + " years at " + monthlyInterest +
-  " would have a monthly payment of " + carPayment)
+btn15.onclick=function calcHomeLoanPayment15() {
+  let principleValue = inptPrinciple2.value
+  let monthlyInterest = inptMonthlyInterest2.value
+  let homePayment =  homeLoanPayment15(Number(principleValue),Number(monthlyInterest)/100)
+  lblResult2.hidden = false
+  lblResult2.textContent = ("A home loan for $" + principleValue + " over 15 years at " + monthlyInterest +
+  "% interest would have a monthly payment of $" + homePayment)
 }
 
   
@@ -23,16 +23,14 @@ btn15.onclick=function homeLoanPayment15() {
 
 
 
-btn30.onclick=function homeLoanPayment30(){
-  let principleValue = inptPrinciple.value
-  let monthlyInterest = inptMonthlyInterest.value
-  let homePayment =  homeLoanPayment30(Number(principleValue),Number(monthlyInterest))
-  lblResult.hidden = false
-  lblResult.textContent = ("A home loan for $ " + principleValue + " over " + totalMonths + " years at " + monthlyInterest +
-  " would have a monthly payment of " + carPayment)
+ btn30.onclick=function calcHomeLoanPayment30(){
+  let principleValue = inptPrinciple2.value
+  let monthlyInterest = inptMonthlyInterest2.value
+  let homePayment =  homeLoanPayment30(Number(principleValue),Number(monthlyInterest)/100)
+  lblResult2.hidden = false
+  lblResult2.textContent = ("A home loan for $" + principleValue + " over 30 years at " + monthlyInterest +
+  "% interest would have a monthly payment of $" + homePayment)
 }
-
-
 
 
  
