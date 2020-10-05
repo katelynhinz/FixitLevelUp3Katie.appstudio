@@ -7,12 +7,11 @@
   let principleValue = inptPrinciple.value
   let monthlyInterest = inptMonthlyInterest.value
   let totalMonths = inptTotalMonths.value
-  let carPayment =  carLoanPayment(Number(principleValue),Number(monthlyInterest.value) / 100,Number(totalMonths))
+  let carPayment =  carLoanPayment(Number(principleValue), (Number(monthlyInterest.value))/100, Number(totalMonths))
   lblResult.hidden = false
-  lblResult.textContent = ("A car loan for $ " + principleValue + " over " + totalMonths + " months at " + monthlyInterest +
+  lblResult.textContent = ("A car loan for $" + principleValue + " over " + totalMonths + " months at " + monthlyInterest +
   "% interest would have a monthly payment of " + carPayment)
 }
-
 
 
 
